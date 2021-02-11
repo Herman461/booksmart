@@ -1,0 +1,40 @@
+.search {
+	position: absolute;
+	z-index: 3;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.icon {
+	width: 15px;
+	height: 25px;
+	position: relative;
+}
+
+.icon span {
+	position: absolute;
+	background-color: #404040;
+	border-radius: 50%;
+	height: 6px;
+	width: 6px;
+	left: 0;
+}
+
+.icon span:nth-child(2) {
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.icon span:last-child {
+	bottom: 0;
+}
+
+@media (max-width: 767.98px) {
+	.search {
+		position: absolute;
+		right: 0px;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}

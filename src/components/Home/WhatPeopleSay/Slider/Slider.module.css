@@ -1,0 +1,133 @@
+/*.slick-track {
+	display: block;
+}
+
+.slick-list {
+	overflow: hidden;
+}
+
+/*.slick-slider {
+	max-width: 370px;
+	position: relative;
+}*/
+
+/*@media (max-width: 767.98px) {
+	.slick-slider {
+		max-width: 100%;
+	}
+}*/
+/*.slick-arrow {
+	font-size: 0;
+	position: absolute;
+	z-index: 2;
+	right: 17px;
+	width: 30px;
+	height: 50px;
+}
+
+.slick-arrow.slick-prev {
+	bottom: 75px;
+	background: url("http://cdn.onlinewebfonts.com/svg/img_282387.png") 0 0 / 100% no-repeat;
+	padding: 5px;
+}
+.slick-arrow.slick-next {
+	bottom: 25px;
+}*/
+
+.ava {
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.name {
+	color: #ac8f58;
+	font-size: 19px;
+	font-weight: 400;
+	margin: 0px 0px 3px 0px;
+}
+
+.client {
+	font-style: italic;
+	color: #606060;
+}
+
+.info {
+	align-self: center;
+
+}
+
+/*.body {
+	max-width: 600px;
+}*/
+.top {
+	display: grid;
+	grid-template-columns: 70px auto;
+	grid-gap: 20px;
+	margin: 0px 0px 20px 0px;
+}
+
+.slide {
+/*	background-color: #fff;
+	border-radius: 7px;
+	padding: 15px 80px 15px 15px;
+	height: 350px;
+	position: relative;*/
+}
+
+
+.wrapper:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 55px;
+	height: 100%;
+	background-color: #ac8f58;
+}
+
+
+.text {
+	font-size: 19px;
+	line-height: calc(28 / 19);
+	font-style: italic;
+	color: #444444;
+}
+
+.wrapper {
+	max-width: 450px;
+	position: relative;
+	background-color: #fff;
+	border-radius: 7px;
+	padding: 15px 80px 15px 15px;
+	min-height: 400px;
+	position: relative;
+	min-width: 0;
+}
+
+@media (max-width: 1200px) {
+	.wrapper {
+		max-width: 400px;
+	}
+}
+
+@media (max-width: 900px) {
+	.wrapper {
+		max-width: 340px;
+	}
+}
+
+
+
+@media (max-width: 767.98px) {
+	.wrapper {
+		max-width: 100%;
+
+	}
+	.slide {
+		max-width: 300px;
+	}
+	.slider {
+	}
+}
+
+
